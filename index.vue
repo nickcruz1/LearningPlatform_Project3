@@ -54,3 +54,13 @@ List of features:
       <button>Learn More</button>
   </div>
     </div>
+    
+      <!-- SQL Modal -->
+    <div class="sModal">
+      <div class="modalContainer">
+      <button @click="closeModal">X</button>
+      <h2>SQL Lesson Plan </h2>
+      <video height="50" width="auto"></video>
+      <button>Learn More</button>
+  </div>
+    </div>
