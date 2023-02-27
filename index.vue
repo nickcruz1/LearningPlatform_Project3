@@ -44,3 +44,13 @@ List of features:
       <button>Learn More</button>
   </div>
     </div>
+    
+      <!-- Git Modal -->
+    <div class="gModal">
+      <div class="modalContainer">
+      <button @click="closeModal">X</button>
+      <h2>Git Lesson Plan </h2>
+      <video height="50" width="auto"></video>
+      <button>Learn More</button>
+  </div>
+    </div>
