@@ -10,3 +10,17 @@ List of features:
   <div id="app">
     <h1>{{ message }}</h1>
     
+ <hr>
+    <h2>Lessons (Click On A Lesson Below)</h2>
+    
+    <!-- **** Modal Section **** -->
+    
+    <!-- HTML Modal -->
+    <div class="hModal">
+      <div class="modalContainer">
+      <button @click="closeModal">X</button>
+      <h2>HTML Lesson Plan </h2>
+      <video height="50" width="auto"></video>
+      <button>Learn More</button>
+  </div>
+    </div>
