@@ -102,3 +102,61 @@ List of features:
     
   </div>
 </template>
+
+ <script>
+      export default {
+        data() {
+          return {
+            message: "Learning Platform"
+          };
+        },
+        methods: {
+          doSomething() {
+            alert("Hello!");
+          },
+          hModal() {
+            let hModal = document.querySelector(".hModal");
+            hModal.style.display = "block";
+          },
+           cModal() {
+            let cModal = document.querySelector(".cModal");
+            cModal.style.display = "block";
+          },
+          jModal() {
+            let jModal = document.querySelector(".jModal");
+            jModal.style.display = "block";
+          },
+          gModal() {
+            let gModal = document.querySelector(".gModal");
+            gModal.style.display = "block";
+          },
+          sModal() {
+            let sModal = document.querySelector(".sModal");
+            sModal.style.display = "block";
+          },
+          vModal() {
+            let vModal = document.querySelector(".vModal");
+            vModal.style.display = "block";
+          },
+          pModal() {
+            let pModal = document.querySelector(".pModal");
+            pModal.style.display = "block";
+          },
+          closeModal() {
+            let hModal = document.querySelector(".hModal");
+            let cModal = document.querySelector(".cModal");
+            let jModal = document.querySelector(".jModal");
+            let gModal = document.querySelector(".gModal");
+            let sModal = document.querySelector(".sModal");
+            let vModal = document.querySelector(".vModal");
+            let pModal = document.querySelector(".pModal");
+            
+            hModal.style.display = "";
+            cModal.style.display = "";
+            jModal.style.display = "";
+            gModal.style.display = "";
+            sModal.style.display = "";
+            vModal.style.display = "";
+            pModal.style.display = "";
+            
+          },
