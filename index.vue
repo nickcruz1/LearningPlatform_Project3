@@ -85,3 +85,20 @@ List of features:
       <button>Learn More</button>
   </div>
     </div>
+    
+    <input type="text" id="myInput" @keyup="filterLessons" placeholder="Search for names.." title="Type in a name">
+
+<ul id="myUL">
+  <li><a @click="hModal" href="#">HTML</a></li>
+  <li><a @click="cModal" href="#">CSS</a></li>
+
+  <li><a @click="jModal" href="#">JavaScript</a></li>
+  <li><a @click="gModal" href="#">Git</a></li>
+
+  <li><a @click="sModal" href="#">SQL</a></li>
+  <li><a @click="vModal" href="#">Vue.js</a></li>
+  <li><a @click="pModal" href="#">Python</a></li>
+</ul>
+    
+  </div>
+</template>
