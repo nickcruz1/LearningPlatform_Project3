@@ -75,3 +75,13 @@ List of features:
       <button>Learn More</button>
   </div>
     </div>
+    
+      <!-- Python Modal -->
+    <div class="pModal">
+      <div class="modalContainer">
+      <button @click="closeModal">X</button>
+      <h2>Python Lesson Plan </h2>
+      <video height="50" width="auto"></video>
+      <button>Learn More</button>
+  </div>
+    </div>
