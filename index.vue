@@ -186,3 +186,16 @@ List of features:
         }
       };
     </script>
+    
+      <style lang="scss">
+          * {
+        box-sizing: border-box;
+      }
+      
+      #app {
+        margin-top: 10px;
+      }
+      
+      button:hover {
+        cursor: pointer;
+      }
