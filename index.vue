@@ -64,3 +64,14 @@ List of features:
       <button>Learn More</button>
   </div>
     </div>
+    
+    
+     <!-- Vue.js Modal -->
+    <div class="vModal">
+      <div class="modalContainer">
+      <button @click="closeModal">X</button>
+      <h2>Vue.js Lesson Plan </h2>
+      <video height="50" width="auto"></video>
+      <button>Learn More</button>
+  </div>
+    </div>
