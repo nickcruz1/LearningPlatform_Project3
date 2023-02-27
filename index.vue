@@ -34,3 +34,13 @@ List of features:
       <button>Learn More</button>
   </div>
     </div>
+
+   <!-- JS Modal -->
+    <div class="jModal">
+      <div class="modalContainer">
+      <button @click="closeModal">X</button>
+      <h2>JavaScript Lesson Plan </h2>
+      <video height="50" width="auto"></video>
+      <button>Learn More</button>
+  </div>
+    </div>
