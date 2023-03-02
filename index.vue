@@ -9,6 +9,12 @@ List of features:
 <template>
    <div class="titleContainer">
       <h1>&#128161; {{ message }}</h1>
+      
+       <div class="rightTitleContainer">
+        <div @click="logIn" class="logIn">&#128682; Log In</div>
+        <div class="resources">&#128214; Resources</div>
+      </div>
+    </div>
     
  <hr>
     <h2>Lessons (Click On A Lesson Below)</h2>
