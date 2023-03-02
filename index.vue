@@ -21,6 +21,12 @@ List of features:
     
     <!-- **** Modal Section **** -->
     
+    <div class="logInModal">
+      <div class="logInModalInner">
+        <h2>Log In</h2>
+        <h4 @click="closeLogInModal">X</h4>
+      </div>
+    
     <!-- HTML Modal -->
     <div class="hModal">
       <div class="modalContainer">
