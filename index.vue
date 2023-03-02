@@ -7,8 +7,8 @@ List of features:
 - Include Vue Router
 ) -->
 <template>
-  <div id="app">
-    <h1>{{ message }}</h1>
+   <div class="titleContainer">
+      <h1>&#128161; {{ message }}</h1>
     
  <hr>
     <h2>Lessons (Click On A Lesson Below)</h2>
