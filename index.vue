@@ -16,6 +16,13 @@ List of features:
       </div>
     </div>
     
+        <label for="enterName">&#129485; Please Enter Your Name:</label>
+      <input class="userName" type="text" />
+      <label for="enterPassword">&#x1f92b; Please Enter Your Password:</label>
+      <input type="password" />
+      <button @click="loggedIn">&#9993; Log In</button>
+    </div>
+    
  <hr>
     <h2>Lessons (Click On A Lesson Below)</h2>
     
