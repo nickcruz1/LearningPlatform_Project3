@@ -147,6 +147,11 @@ List of features:
 
       logInModal.style.display = "none";
     },
+      closeLogInModal() {
+      let logInModal = document.querySelector(".logInModal");
+
+      logInModal.style.display = "none";
+    },
           hModal() {
             let hModal = document.querySelector(".hModal");
             hModal.style.display = "block";
