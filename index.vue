@@ -130,9 +130,11 @@ List of features:
           };
         },
         methods: {
-          doSomething() {
-            alert("Hello!");
-          },
+          logIn() {
+      let logInModal = document.querySelector(".logInModal");
+
+      logInModal.style.display = "block";
+    },
           hModal() {
             let hModal = document.querySelector(".hModal");
             hModal.style.display = "block";
