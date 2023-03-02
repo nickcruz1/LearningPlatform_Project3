@@ -135,6 +135,18 @@ List of features:
 
       logInModal.style.display = "block";
     },
+     loggedIn() {
+      let userName = document.querySelector(".userName");
+      let logInModal = document.querySelector(".logInModal");
+
+      alert("You are logged In!");
+
+      document.querySelector(
+        ".logIn"
+      ).innerHTML = `<h2> Welcome ${userName.value}! &#128513;</h2>`;
+
+      logInModal.style.display = "none";
+    },
           hModal() {
             let hModal = document.querySelector(".hModal");
             hModal.style.display = "block";
